@@ -2,34 +2,42 @@ package game
 
 // Color : Int constant mapping
 const (
-	Red    = 0
-	Blue   = 1
-	Green  = 2
-	Pink   = 3
-	Orange = 4
-	Yellow = 5
-	Black  = 6
-	White  = 7
-	Purple = 8
-	Brown  = 9
-	Cyan   = 10
-	Lime   = 11
+	Red      = 0
+	Blue     = 1
+	Green    = 2
+	Pink     = 3
+	Orange   = 4
+	Yellow   = 5
+	Black    = 6
+	White    = 7
+	Purple   = 8
+	Brown    = 9
+	Cyan     = 10
+	Lime     = 11
+	Salmon   = 12
+	Bordeaux = 13
+	Olive    = 14
+	Turqoise = 15
 )
 
 // ColorStrings for lowercase, possibly for translation if needed
 var ColorStrings = map[string]int{
-	"red":    Red,
-	"blue":   Blue,
-	"green":  Green,
-	"pink":   Pink,
-	"orange": Orange,
-	"yellow": Yellow,
-	"black":  Black,
-	"white":  White,
-	"purple": Purple,
-	"brown":  Brown,
-	"cyan":   Cyan,
-	"lime":   Lime,
+	"red":      Red,
+	"blue":     Blue,
+	"green":    Green,
+	"pink":     Pink,
+	"orange":   Orange,
+	"yellow":   Yellow,
+	"black":    Black,
+	"white":    White,
+	"purple":   Purple,
+	"brown":    Brown,
+	"cyan":     Cyan,
+	"lime":     Lime,
+	"salmon":   Salmon,
+	"bordeaux": Bordeaux,
+	"olive":    Olive,
+	"turqoise": Turqoise,
 }
 
 // GetColorStringForInt does what it sounds like
