@@ -2,10 +2,11 @@ package token
 
 import (
 	"context"
-	"github.com/automuteus/utils/pkg/rediskey"
-	"github.com/go-redis/redis/v8"
 	"log"
 	"time"
+
+	"github.com/go-redis/redis/v8"
+	"github.com/neomis/utils/pkg/rediskey"
 )
 
 func LockForToken(client *redis.Client, token string) {
